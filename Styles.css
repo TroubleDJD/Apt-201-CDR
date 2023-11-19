@@ -1,0 +1,37 @@
+p {
+    font: italic;
+}
+
+
+
+
+
+
+body {
+    background-color: rgba(34, 200, 226, 0.521);     
+}
+
+
+table { 
+    border-collapse: collapse;
+    width: 5%;
+
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+
+.hov {
+    font-size: larger;
+}
+.hov:hover {
+    font-style: italic;
+
+}
+.every-even li:nth-of-type(even) {
+    font-weight: bold;
+}
